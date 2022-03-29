@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/github-typeahead/static/css/main.cfc7f633.css",
+    "main.js": "/github-typeahead/static/js/main.54e5b50e.js",
+    "index.html": "/github-typeahead/index.html",
+    "main.cfc7f633.css.map": "/github-typeahead/static/css/main.cfc7f633.css.map",
+    "main.54e5b50e.js.map": "/github-typeahead/static/js/main.54e5b50e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfc7f633.css",
+    "static/js/main.54e5b50e.js"
+  ]
+}
