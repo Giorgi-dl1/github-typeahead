@@ -1,0 +1,30 @@
+a{
+    text-decoration: none;
+}
+.person{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: black;
+    padding: .5rem 1rem;
+    transition: background-color .3ss;
+}
+.person img{
+    width: 55px;
+    border-radius: 50%;
+    border:2px solid transparent;
+    transition: border .2s;
+}
+.person:hover{
+    background-color: aliceblue;
+}
+.person:hover img{
+    border:2px solid rgb(194, 127, 3);
+}
+.people-comp{
+    overflow: hidden;
+    max-height: 60vh;
+    overflow-y: auto;
+    border-top: 1px solid hsl(120, 100%, 26%);
+}
