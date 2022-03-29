@@ -9,7 +9,7 @@ function TypeAhead({data}){
 
     const handleChange = (e)=>{
         setPersonName(e.target.value);
-        const filteredDataVar = data.filter(person=> person.login.toLowerCase().includes(e.target.value))
+        const filteredDataVar = data.filter(person=> person.login.toLowerCase().includes(e.target.value.toLowerCase()))
         setFilteredData(filteredDataVar);
     }
     const resetData=()=>{
