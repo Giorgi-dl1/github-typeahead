@@ -1,6 +1,12 @@
 import './people.css'
 function People({data}){
-    
+    if(data.length==0){
+        return(
+            <div className='noMatch'>
+                <p>no matched names</p>
+            </div>
+        )
+    }
     return(
         <div className="people-comp">
             {data.map((person)=>{
